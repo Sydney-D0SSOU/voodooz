@@ -1,4 +1,4 @@
-# Projet Voodooz
+# Projet Vodooz
 
 ## Description
 
@@ -26,10 +26,13 @@ npm install
 ```bash
 npm run dev`
 ```
+
 ### Exéuter les migrations
+
 ```bash
 npx sequelize-cli db:migrate
 ```
+
 ## Structure du Projet
 
 /d:/voodooz
@@ -65,4 +68,7 @@ npx sequelize-cli db:migrate
 ├── app.js
 ├── package.json
 └── README.md
+
+```
+
 ```
