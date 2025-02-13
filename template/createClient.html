@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bienvenue chez Busilingo </title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+    .container {
+      width: 100%;
+      padding: 20px;
+    }
+    .email-content {
+      background-color: #ffffff;
+      padding: 30px;
+      border-radius: 10px;
+      max-width: 600px;
+      margin: 0 auto;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    h1 {
+      color: #f57c00;
+    }
+    p {
+      font-size: 16px;
+      line-height: 1.6;
+    }
+    .button {
+      display: inline-block;
+      background-color: #f57c00;
+      color: #fff;
+      padding: 10px 20px;
+      border-radius: 5px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .footer {
+      margin-top: 20px;
+      text-align: center;
+      font-size: 12px;
+      color: #777;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="email-content">
+      <h1>Bienvenue chez [Nom de votre service]</h1>
+      <p>Bonjour <strong>{{nom}}</strong>,</p>
+      <p>Félicitations ! Bienvenue sur Busilingo.</p>
+      <p>Voici vos informations de connexion :</p>
+      <ul>
+        <li><strong>Email:</strong> {{email}}</li>
+        <li><strong>Mot de passe:</strong> {{password}}</li>
+      </ul>
+      <p>Veuillez vous connecter à votre compte en utilisant ces informations. Une fois connecté, nous vous recommandons de changer votre mot de passe pour des raisons de sécurité.</p>
+      <a href="https://votre-site-web.com/login" class="button">Se connecter</a>
+      <p>Si vous avez des questions, n'hésitez pas à nous contacter.</p>
+    </div>
+    <div class="footer">
+      <p>&copy; 2024 [Nom de votre entreprise]. Tous droits réservés.</p>
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,93 @@
+<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><help_text>Space for diagram not</help_text><element><id>UMLClass</id><coordinates><x>230</x><y>0</y><w>180</w><h>190</h></coordinates><panel_attributes>User
+--
+#idU: int
+#nom : string
+#prenom : string
+#email: string
+#password:string
+#phone : number
+#pays: string
+#ville: string
+--
+
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>10</x><y>270</y><w>170</w><h>100</h></coordinates><panel_attributes>client
+--
+
+--
++ajouter()
++modifier()
++supprimer()
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>310</x><y>180</y><w>30</w><h>50</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;10;30</additional_attributes></element><element><id>Relation</id><coordinates><x>80</x><y>200</y><w>460</w><h>40</h></coordinates><panel_attributes></panel_attributes><additional_attributes>10;20;440;20</additional_attributes></element><element><id>Relation</id><coordinates><x>80</x><y>210</y><w>30</w><h>80</h></coordinates><panel_attributes></panel_attributes><additional_attributes>10;60;10;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>430</x><y>680</y><w>170</w><h>180</h></coordinates><panel_attributes>Etagere
+--
+-idEt: int
+-libelEt : string
+--
++ajouter()
++modifier()
++supprimer()
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>430</x><y>450</y><w>170</w><h>150</h></coordinates><panel_attributes>Categorie
+-
+-idCat : int 
+-libelCat : string
+--
++ajouter()
++modifier()
+
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>10</x><y>700</y><w>170</w><h>180</h></coordinates><panel_attributes>livre
+-
+-idLiv : int 
+-titreLiv : string 
+-auteurLivre : string 
+-dateLiv : date 
+-pageLiv:int 
+-fileLiv : file
+
+--
++ajouter()
++modifier()
++supprimer()
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>440</x><y>260</y><w>170</w><h>100</h></coordinates><panel_attributes>super admin
+--
+
+--
++ajouter()
++modifier()
++supprimer()
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>510</x><y>210</y><w>30</w><h>70</h></coordinates><panel_attributes></panel_attributes><additional_attributes>10;50;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>170</x><y>750</y><w>280</w><h>50</h></coordinates><panel_attributes>lt=-
+m1=1
+m2=1
+concerner &gt;</panel_attributes><additional_attributes>260;20;10;20</additional_attributes></element><element><id>UMLClass</id><coordinates><x>920</x><y>340</y><w>140</w><h>170</h></coordinates><panel_attributes>Formation
+--
+-idForm: int
+-cibleForm: string
+-dureeform: string
+-modeForm : string
+-pictureForm : string
+-butForm : string
+-describeForm: string
+-prixForm : int
+--
+ajouter ()</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>500</x><y>350</y><w>80</w><h>120</h></coordinates><panel_attributes>lt=-
+m1=0..n
+m2=1
+Ajouter&gt;</panel_attributes><additional_attributes>10;100;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>510</x><y>600</y><w>80</w><h>100</h></coordinates><panel_attributes>lt=-
+m1=0..n
+m2=1
+Ajouter&gt;</panel_attributes><additional_attributes>10;80;10;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>220</x><y>460</y><w>170</w><h>150</h></coordinates><panel_attributes>note 
+-
+-idNote : int 
+-textNote : string  
+-dateNote : date 
+
+--
++ajouter()
++modifier()
++supprimer()
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>70</x><y>360</y><w>30</w><h>360</h></coordinates><panel_attributes></panel_attributes><additional_attributes>10;10;10;340</additional_attributes></element><element><id>Relation</id><coordinates><x>70</x><y>520</y><w>170</w><h>30</h></coordinates><panel_attributes>lt=.</panel_attributes><additional_attributes>10;10;150;10</additional_attributes></element></diagram>
